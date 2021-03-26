@@ -40,6 +40,15 @@ const $Header = styled.div`
   }
 `;
 
+const $Logo = styled.img`
+  height: 42px;
+  margin-right: 10px;
+  border: 1px solid;
+  border-radius: 50%;
+  padding: 2px;
+  box-sizing: border-box;
+`;
+
 const $Title = styled.div`
   color: ${primary};
   font-size: 19px;
@@ -49,15 +58,28 @@ const $Title = styled.div`
   align-items: center;
   cursor: pointer;
 
-  img {
-    height: 32px;
-    margin-right: 10px;
-    margin-bottom: 6px;
+  a {
+    display: flex;
+    align-items: center;
+
+    &:hover {
+      color: inherit;
+    }
   }
 
   @media ${device.tablet} {
     font-size: 30px;
   }
+`;
+
+const $Name = styled.span``;
+
+const $Subtitle = styled.span`
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 10px;
+  padding-left: 10px;
+  border-left: 3px solid ${primary};
 `;
 
 const $Links = styled.div`
@@ -124,8 +146,11 @@ const Header = () => {
     <$HeaderWrapper>
       <$Header>
         <$Title onClick={openIntro}>
-          <img src="https://static.twinlify.com/logos/logo-square.svg" />
-          <span>Twinlify</span>
+          <a href="https://twinlify.com" target="__blank">
+            <$Logo src="https://static.twinlify.com/logos/logo-square.svg" />
+            <$Name>Twinlify</$Name>
+          </a>
+          <$Subtitle>Docs</$Subtitle>
         </$Title>
         <$Links>
           <NavLink exact to={PATHS.intro}>
