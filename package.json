@@ -1,6 +1,6 @@
 {
   "name": "@twinlify/docs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Documentation website for Twinlify",
   "scripts": {
     "prebuild": "rm -rf ./dist && node scripts/generate-toc.js",
