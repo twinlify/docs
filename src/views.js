@@ -8,7 +8,7 @@ import styled from 'styled-components';
 
 import Intro from './pages/intro';
 import Documentation from './pages/docs';
-import {device} from './style/breakpoints';
+import {device} from '@twinlify/walrus';
 
 // -----------------------------------------------------------------------------
 

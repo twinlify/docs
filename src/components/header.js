@@ -4,8 +4,7 @@ import React, {useEffect, useState} from 'react';
 import {NavLink, useHistory, useLocation} from 'react-router-dom';
 import styled, {css} from 'styled-components';
 import {DOC_PATHS} from '../pages/docs';
-import {device} from '../style/breakpoints';
-import {primary} from '../style/colors';
+import {device, primary} from '@twinlify/walrus';
 
 import {PATHS} from '../views';
 
@@ -150,12 +149,12 @@ const Header = () => {
   return (
     <$HeaderWrapper>
       <$Header>
-        <$Title onClick={openIntro}>
+        <$Title>
           <a href="https://twinlify.com" target="__blank">
             <$Logo src="https://static.twinlify.com/logos/logo-square.svg" />
             <$Name>Twinlify</$Name>
           </a>
-          <$Subtitle>Docs</$Subtitle>
+          <$Subtitle onClick={openIntro}>Docs</$Subtitle>
         </$Title>
         <$Links>
           <NavLink exact to={PATHS.intro}>

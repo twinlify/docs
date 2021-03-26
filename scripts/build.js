@@ -9,7 +9,8 @@ const outfile = 'public/app.min.js';
 esbuild
   .build({
     entryPoints: ['src/index.js'],
-    minify: true,
+    minify: false,
+    // minify: true,
     bundle: true,
     metafile: true,
     outfile,

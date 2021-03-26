@@ -2,8 +2,7 @@ import React from 'react';
 import {useHistory} from 'react-router';
 import styled from 'styled-components';
 
-import {device} from '../../style/breakpoints';
-import {primary} from '../../style/colors';
+import {device, primary} from '@twinlify/walrus';
 
 import {DOC_PATHS} from '../docs';
 

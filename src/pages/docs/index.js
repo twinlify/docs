@@ -5,13 +5,12 @@ import {Redirect, Route, Switch} from 'react-router';
 import styled from 'styled-components';
 
 import Navigation from './navigation';
-import {device} from '../../style/breakpoints';
+import {device, Markdown} from '@twinlify/walrus';
 
 // -----------------------------------------------------------------------------
 
 import gettingStartedMd from './getting-started.md';
 import apiMd from './api.md';
-import Markdown from '../../components/markdown';
 
 // -----------------------------------------------------------------------------
 

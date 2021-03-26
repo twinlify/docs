@@ -6,9 +6,7 @@ import styled, {css} from 'styled-components';
 
 // -----------------------------------------------------------------------------
 
-import {device} from '../../style/breakpoints';
-import {primary} from '../../style/colors';
-import Markdown from '../../components/markdown';
+import {device, primary, Markdown} from '@twinlify/walrus';
 
 // -----------------------------------------------------------------------------
 
