@@ -80,6 +80,11 @@ const $Subtitle = styled.span`
   margin-left: 10px;
   padding-left: 10px;
   border-left: 3px solid ${primary};
+  visibility: hidden;
+
+  @media ${device.tablet} {
+    visibility: visible;
+  }
 `;
 
 const $Links = styled.div`
@@ -159,7 +164,7 @@ const Header = () => {
           <$NavLink to={DOC_PATHS.gettingStarted} active={+docActive}>
             Documentation
           </$NavLink>
-          <a href="https://github.com/twinlify" target="__blank">
+          <a href="https://github.com/twinlify" target="__new">
             Github
           </a>
         </$Links>

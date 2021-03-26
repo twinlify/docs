@@ -16,10 +16,12 @@ const $View = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   width: 100%;
   flex-grow: 1;
   box-sizing: border-box;
   padding: 0px 5px;
+  min-height: calc(100vh - 120px);
 
   @media ${device.tablet} {
     padding: 0px 30px;
