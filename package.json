@@ -4,8 +4,8 @@
   "description": "Documentation website for Twinlify",
   "scripts": {
     "prebuild": "rm -rf ./dist && node scripts/generate-toc.js",
-    "build": "node scripts/build.js",
-    "start:dev": "node scripts/dev-server.js",
+    "build": "reactor build",
+    "start:dev": "reactor start",
     "ncu": "npm-check-updates",
     "lint": "eslint src"
   },
@@ -18,12 +18,10 @@
     "styled-components": "^5.2.1"
   },
   "devDependencies": {
+    "@uralys/reactor": "^0.0.4",
     "babel-eslint": "^10.0.3",
     "chalk": "^4.1.0",
-    "connect-history-api-fallback": "^1.6.0",
     "doctoc": "^2.0.0",
-    "esbuild": "^0.10.1",
-    "esbuild-plugin-svgr": "^0.0.1",
     "eslint": "^7.23.0",
     "eslint-config-prettier": "^8.1.0",
     "eslint-config-standard": "^16.0.2",
@@ -31,7 +29,6 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.3.1",
     "eslint-plugin-react": "^7.23.1",
-    "live-server": "^1.2.1",
     "mkdirp": "^1.0.4",
     "npm-check-updates": "^11.3.0",
     "rimraf": "^3.0.2"
