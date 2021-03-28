@@ -1,6 +1,12 @@
 module.exports = {
-  loader: {
-    '.js': 'jsx',
-    '.md': 'text'
+  esbuild: {
+    loader: {
+      '.js': 'jsx',
+      '.md': 'text'
+    }
+  },
+  documentation: {
+    dist: './tocs',
+    source: './src/pages/docs'
   }
 };
