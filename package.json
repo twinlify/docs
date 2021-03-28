@@ -3,7 +3,7 @@
   "version": "0.0.3",
   "description": "Documentation website for Twinlify",
   "scripts": {
-    "prebuild": "rm -rf ./dist && node scripts/generate-toc.js",
+    "prebuild": "rm -rf ./dist && reactor toc",
     "build": "reactor build",
     "start:dev": "reactor start",
     "ncu": "npm-check-updates",
@@ -18,7 +18,7 @@
     "styled-components": "^5.2.1"
   },
   "devDependencies": {
-    "@uralys/reactor": "^0.0.5",
+    "@uralys/reactor": "^1.0.5",
     "babel-eslint": "^10.0.3",
     "eslint": "^7.23.0",
     "eslint-config-prettier": "^8.1.0",
