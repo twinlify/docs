@@ -1,6 +1,6 @@
 {
   "name": "@twinlify/docs",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Documentation website for Twinlify",
   "scripts": {
     "prebuild": "rm -rf ./dist && reactor toc",
