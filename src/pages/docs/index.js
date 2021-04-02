@@ -9,14 +9,18 @@ import {device, Markdown} from '@twinlify/walrus';
 
 // -----------------------------------------------------------------------------
 
-import gettingStartedMd from './getting-started.md';
 import apiMd from './api.md';
+import gettingStartedMd from './getting-started.md';
+import usingBundlerMd from './using-bundler.md';
+import usingCdnMd from './using-cdn.md';
 
 // -----------------------------------------------------------------------------
 
 const root = '/documentation';
 const gettingStarted = '/getting-started';
 const api = '/api';
+const usingBundler = '/using-bundler';
+const usingCdn = '/using-cdn';
 
 // -----------------------------------------------------------------------------
 
@@ -58,6 +62,16 @@ const Documentation = props => {
             exact
             component={() => <Markdown markdown={apiMd} />}
           />
+          <Route
+            path={`${path}${usingCdn}`}
+            exact
+            component={() => <Markdown markdown={usingCdnMd} />}
+          />
+          <Route
+            path={`${path}${usingBundler}`}
+            exact
+            component={() => <Markdown markdown={usingBundlerMd} />}
+          />
           <Route exact path={path}>
             <Redirect to={`${path}${gettingStarted}`} />
           </Route>
@@ -72,6 +86,8 @@ const Documentation = props => {
 export default Documentation;
 
 export const DOC_PATHS = {
-  gettingStarted: `${root}${gettingStarted}`,
-  api: `${root}${api}`
+  api: `${root}${api}`,
+  usingBundler: `${root}${usingBundler}`,
+  usingCdn: `${root}${usingCdn}`,
+  gettingStarted: `${root}${gettingStarted}`
 };

@@ -5,6 +5,7 @@ import styled from 'styled-components';
 import {device, primary} from '@twinlify/walrus';
 
 import {DOC_PATHS} from '../docs';
+import Demo from './demo';
 
 // -----------------------------------------------------------------------------
 
@@ -36,6 +37,13 @@ const $Card = styled.a`
   transition: all 0.2s;
 `;
 
+const $Pitch = styled.p`
+  max-width: 500px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  text-align: center;
+`;
+
 // -----------------------------------------------------------------------------
 
 const Intro = () => {
@@ -54,11 +62,19 @@ const Intro = () => {
   };
 
   return (
-    <$Cards>
-      <$Card onClick={openGettingStarted}>Getting Started</$Card>
-      <$Card onClick={openAPI}>API Documentation</$Card>
-      <$Card onClick={openPlatformDemo}>Integration demos</$Card>
-    </$Cards>
+    <>
+      <$Cards>
+        <$Card onClick={openGettingStarted}>Getting Started</$Card>
+        <$Card onClick={openAPI}>API Documentation</$Card>
+        <$Card onClick={openPlatformDemo}>Integration demos</$Card>
+      </$Cards>
+
+      <$Pitch>
+        <b>Twinlify Nexus</b> is a JavaScript library that uses WebGL to render
+        interactive 3D digital twins.
+      </$Pitch>
+      <Demo />
+    </>
   );
 };
 

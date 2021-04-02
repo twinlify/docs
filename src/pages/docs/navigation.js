@@ -13,6 +13,8 @@ import {device, primary, Markdown} from '@twinlify/walrus';
 import {DOC_PATHS} from '.';
 import gettingStartedTOC from '../../../tocs/toc.getting-started.md';
 import apiTOC from '../../../tocs/toc.api.md';
+import usingBundlerTOC from '../../../tocs/toc.using-bundler.md';
+import usingCdnTOC from '../../../tocs/toc.using-cdn.md';
 
 // -----------------------------------------------------------------------------
 
@@ -91,6 +93,16 @@ const Navigation = props => {
       name: 'Getting started',
       path: DOC_PATHS.gettingStarted,
       toc: gettingStartedTOC
+    },
+    {
+      name: 'Using CDN',
+      path: DOC_PATHS.usingCdn,
+      toc: usingCdnTOC
+    },
+    {
+      name: 'Using a bundler',
+      path: DOC_PATHS.usingBundler,
+      toc: usingBundlerTOC
     },
     {
       name: 'Api',
