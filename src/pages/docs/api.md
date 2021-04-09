@@ -118,25 +118,3 @@ const model = {
 ```
 
 types: `sphere`, `polygon`, `cctv` or custom depending on your site [configuration](/documentation/getting-started#configuration).
-
-#### [properties](#properties)
-
-#### [reading](#reading)
-
-### [focusDeviceOnProperty](#focusdeviceonproperty)
-
-### [updateDeviceData](#updatedevicedata)
-
-### [updateDeviceColor](#updatedevicecolor)
-
-## [Building](#building)
-
-Functions to navigate and filter your building and levels
-
-## [Camera](#camera)
-
-Functions to use the camera
-
-```
-
-```
