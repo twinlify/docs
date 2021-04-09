@@ -105,7 +105,7 @@ const Navigation = props => {
       toc: usingBundlerTOC
     },
     {
-      name: 'Api',
+      name: 'API Reference',
       path: DOC_PATHS.api,
       toc: apiTOC
     }

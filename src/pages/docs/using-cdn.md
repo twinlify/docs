@@ -9,9 +9,11 @@ In this section, we will show how to use Nexus to an existing HTML page. You can
 ```html
 <script
   type="text/javascript"
-  src="https://static.twinlify.com/apps/nexus-0.8.0.min.js"
+  src="https://static.twinlify.com/apps/nexus-x.x.x.min.js"
 ></script>
 ```
+
+Replace the semantic version `x.x.x` to the latest on <https://www.npmjs.com/package/@twinlify/nexus>
 
 ## [Add a DOM Container](#add-a-dom-container)
 
