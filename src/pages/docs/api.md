@@ -107,21 +107,61 @@ const feature = {
 
 #### [model](#model)
 
-Select the model, scale and rotation you want to use for this device
+Select the model and its properties you want to use for this device
 
 ```js
 const model = {
-  type: 'sphere',
-  scale: 2,
-  rotation: {x: 0, y: 10, z: 0}
+  type: 'polygon',
+  level: 2
 };
 ```
 
-types: `sphere`, `polygon`, `cctv` or custom depending on your site [configuration](/documentation/getting-started#configuration).
+types: `sphere`, `polygon`, `cctv`, `gtlf` or custom depending on your site [configuration](/documentation/getting-started#configuration).
+
+##### additional model properties
+
+- `opacity`: number between `0` and `1`: the opacity of your model; default: `1`
+
+- `scale`: default: `1`
+
+- `depth`: (only for `type:polygon`) in meter: the height of a zone; default: the level height.
+
+- `rotation`: (only for `type:gltf`) `{x: degrees, y: degrees, z: degrees}`; default: `{x: 0, y: 0, z: 0}`
 
 #### [properties](#properties)
 
+- `level`: integer: your `model.z` will be calculated from this.
+
 #### [reading](#reading)
+
+The `reading` defines
+
+- which properties to read from the data attached to this device,
+- how to name it
+- and which `coloring` to use to color the model depending on the value of this property
+
+```js
+const reading = {
+  [property]: {
+    name: 'The title for this property in the UI',
+    coloring: 'coloringId'
+  }
+};
+```
+
+Example: to read `temperature` and `date`, you need this reading:
+
+```js
+const reading = {
+  temperature: {
+    name: 'Température',
+    coloring: 'temperatureColoring'
+  },
+  date: {
+    name: 'Date'
+  }
+};
+```
 
 ### [focusDeviceOnProperty](#focusdeviceonproperty)
 
