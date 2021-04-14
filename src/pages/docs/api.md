@@ -128,6 +128,8 @@ types: `sphere`, `polygon`, `cctv`, `gtlf` or custom depending on your site [con
 
 - `rotation`: (only for `type:gltf`) `{x: degrees, y: degrees, z: degrees}`; default: `{x: 0, y: 0, z: 0}`
 
+- `color`: (optional) hexadecimal color used on creation; examples: '#123456' , '#123'
+
 #### [properties](#properties)
 
 - `level`: integer: your `model.z` will be calculated from this.
