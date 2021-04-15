@@ -72,11 +72,27 @@ Functions to connect and listen to your devices
 
 ```js
 nexus.createDevice({
-  id: 'zone-1',
+  id,
   feature,
   model,
   properties,
   reading
+});
+```
+
+Example:
+
+```js
+nexus.createDevice({
+  id: 'zone-2-1',
+  feature, // see [feature](#feature)
+  model: {
+    type: 'polygon',
+    opacity: 0.4
+  },
+  properties: {
+    level: 2
+  }
 });
 ```
 
@@ -109,10 +125,13 @@ const feature = {
 
 Select the model and its properties you want to use for this device
 
+Example:
+
 ```js
 const model = {
   type: 'polygon',
-  level: 2
+  opacity: 0.6,
+  depth: 0.2
 };
 ```
 
