@@ -167,18 +167,61 @@ const reading = {
 
 ### [focusDeviceOnProperty](#focusdeviceonproperty)
 
+The property focus on a device allows to apply the proper coloring.
+
+By default the focus is set on the first [`coloring`](#coloring) found in the [`reading`](#reading).
+
+You can change the property focus using:
+
+```js
+nexus.focusDeviceOnProperty({
+  deviceId: 'zone-2-1',
+  property: temperature
+});
+```
+
+Once the focus is updated, the color of the device will be updated automatically if you have provided a [`coloring`](#coloring) for this property.
+
 ### [updateDeviceData](#updatedevicedata)
+
+To update a device data, provide all properties you need to update in the field `data` with their new values:
+
+```js
+nexus.updateDeviceData({
+  deviceId: 'zone-2-1',
+  data: {
+    temperature: 23.4,
+    date: '2021-04-10'
+  }
+});
+```
+
+Once the data is updated, the color of the device will be updated automatically if:
+
+- the device's focus is set on one of the properties updated
+- and you have provided a [`coloring`](#coloring) for this property
 
 ### [updateDeviceColor](#updatedevicecolor)
 
+You can set the color manually using an hexadecimal string:
+
+```js
+nexus.updateDeviceColor({
+  deviceId: 'zone-2-1',
+  color: '#123456' // or '#123'
+});
+```
+
+To apply a calculated color depending on a value, you need to use a [`coloring`](#coloring).
+
 ## [Building](#building)
 
-Functions to navigate and filter your building and levels
+Functions to navigate and filter your building and levels.
+
+Stay in touch;
 
 ## [Camera](#camera)
 
-Functions to use the camera
+Functions to use the camera.
 
-```
-
-```
+Stay in touch;
