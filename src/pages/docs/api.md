@@ -33,17 +33,13 @@ const nexus = await Nexus.create({
 });
 ```
 
-### [addCustomisation](#addcustomisation)
-
-#### [coloring](#coloring)
+### [addColoring](#addcoloring)
 
 ```js
-nexus.addCustomisation({
-  coloring: {
-    id: 'temperatureColoring',
-    steps: [18, 21, 24, 27],
-    colors: ['#33f', '#33bb77', '#f3e942', '#f18842', '#d33a3a']
-  }
+nexus.addColoring({
+  id: 'temperatureColoring',
+  steps: [18, 21, 24, 27],
+  colors: ['#33f', '#33bb77', '#f3e942', '#f18842', '#d33a3a']
 });
 ```
 
@@ -159,7 +155,7 @@ The `reading` defines
 
 - which properties to read from the data attached to this device,
 - how to name it
-- and which `coloring` to use to color the model depending on the value of this property
+- and which [`coloring`](#addcoloring) to use to color the model depending on the value of this property
 
 ```js
 const reading = {
@@ -188,7 +184,7 @@ const reading = {
 
 The property focus on a device allows to apply the proper coloring.
 
-By default the focus is set on the first [`coloring`](#coloring) found in the [`reading`](#reading).
+By default the focus is set on the first [`coloring`](#addcoloring) found in the [`reading`](#reading).
 
 You can change the property focus using:
 
@@ -199,7 +195,7 @@ nexus.focusDeviceOnProperty({
 });
 ```
 
-Once the focus is updated, the color of the device will be updated automatically if you have provided a [`coloring`](#coloring) for this property.
+Once the focus is updated, the color of the device will be updated automatically if you have provided a [`coloring`](#addcoloring) for this property.
 
 ### [updateDeviceData](#updatedevicedata)
 
@@ -218,7 +214,7 @@ nexus.updateDeviceData({
 Once the data is updated, the color of the device will be updated automatically if:
 
 - the device's focus is set on one of the properties updated
-- and you have provided a [`coloring`](#coloring) for this property
+- and you have provided a [`coloring`](#addcoloring) for this property
 
 ### [updateDeviceColor](#updatedevicecolor)
 
@@ -231,7 +227,7 @@ nexus.updateDeviceColor({
 });
 ```
 
-To apply a calculated color depending on a value, you need to use a [`coloring`](#coloring).
+To apply a calculated color depending on a value, you need to use a [`coloring`](#addcoloring).
 
 ## [Building](#building)
 
