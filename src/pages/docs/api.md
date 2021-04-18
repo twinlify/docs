@@ -69,7 +69,7 @@ Functions to connect and listen to your devices
 ```js
 nexus.createDevice({
   id,
-  feature,
+  location,
   model,
   properties,
   reading
@@ -81,7 +81,7 @@ Example:
 ```js
 nexus.createDevice({
   id: 'zone-2-1',
-  feature, // see [feature](#feature)
+  location,
   model: {
     type: 'polygon',
     opacity: 0.4
@@ -92,15 +92,15 @@ nexus.createDevice({
 });
 ```
 
-#### [feature](#feature)
+#### [location](#location)
 
-`feature` follows the [`GeoJSON`](https://geojson.org/) specification.
+`location` follows the [`GeoJSON`](https://geojson.org/) specification.
 
 - if it's a `Point`, your model will be positioned at the `geometry.coordinates`
 - if it's a `Polygon`, you need to use a [model](#model) of type `polygon`, to draw the area.
 
 ```js
-const feature = {
+const location = {
   type: 'Feature',
   geometry: {
     type: 'Polygon',
