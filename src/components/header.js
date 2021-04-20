@@ -50,7 +50,7 @@ const Header = () => {
         Documentation
       </$NavLink>
       <a href="https://platform.twinlify.com/">Demo</a>
-      <a href="https://github.com/twinlify/docs">Github</a>
+      <a href="https://github.com/twinlify/nexus-sdk">Github</a>
     </CommonHeader>
   );
 };
