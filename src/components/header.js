@@ -49,6 +49,7 @@ const Header = () => {
       <$NavLink to={DOC_PATHS.gettingStarted} active={+docActive}>
         Documentation
       </$NavLink>
+      <a href="https://platform.twinlify.com/">Demo</a>
       <a href="https://github.com/twinlify/docs">Github</a>
     </CommonHeader>
   );
