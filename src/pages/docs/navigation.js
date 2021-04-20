@@ -118,9 +118,9 @@ const Navigation = props => {
   console.log({pkg});
   return (
     <$Navigation>
-      <h4>
-        Nexus <span>v{pkg.dependencies['@twinlify/nexus'].slice(1)}</span>
-      </h4>
+      <a href="/documentation/changelog">
+        <h4>Nexus v{pkg.dependencies['@twinlify/nexus'].slice(1)}</h4>
+      </a>
       {topics.map(({name, path, toc}) => (
         <$Topic key={path}>
           <NavLink exact to={path}>
