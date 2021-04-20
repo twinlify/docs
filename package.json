@@ -5,13 +5,13 @@
   "scripts": {
     "prebuild": "rm -rf ./dist && reactor toc",
     "build": "reactor build",
-    "start:dev": "reactor start",
+    "start:dev": "reactor toc && reactor start",
     "ncu": "npm-check-updates",
     "lint": "eslint src"
   },
   "license": "MIT",
   "dependencies": {
-    "@twinlify/nexus": "^0.9.3",
+    "@twinlify/nexus": "^0.11.4",
     "@twinlify/walrus": "^0.0.9",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -19,14 +19,11 @@
     "styled-components": "^5.2.3"
   },
   "devDependencies": {
-    "@uralys/reactor": "^1.0.14",
+    "@uralys/reactor": "^1.0.15",
     "babel-eslint": "^10.0.3",
-    "eslint": "^7.23.0",
-    "eslint-config-prettier": "^8.1.0",
+    "eslint": "^7.24.0",
+    "eslint-config-prettier": "^8.2.0",
     "eslint-config-standard": "^16.0.2",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.3.1",
     "eslint-plugin-react": "^7.23.2",
     "npm-check-updates": "^11.4.1"
   }

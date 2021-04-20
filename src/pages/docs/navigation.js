@@ -10,6 +10,7 @@ import {device, primary, Markdown} from '@twinlify/walrus';
 
 // -----------------------------------------------------------------------------
 
+import pkg from '../../../package.json';
 import {DOC_PATHS} from '.';
 import gettingStartedTOC from '../../../tocs/toc.getting-started.md';
 import apiTOC from '../../../tocs/toc.api.md';
@@ -31,7 +32,6 @@ const $Navigation = styled.div`
 
   @media ${device.laptop} {
     flex: 0 0 240px;
-    padding-top: 80px;
     padding-right: 10px;
     box-sizing: border-box;
   }
@@ -111,8 +111,12 @@ const Navigation = props => {
     }
   ];
 
+  console.log({pkg});
   return (
     <$Navigation>
+      <h4>
+        Nexus <span>v{pkg.dependencies['@twinlify/nexus'].slice(1)}</span>
+      </h4>
       {topics.map(({name, path, toc}) => (
         <$Topic key={path}>
           <NavLink exact to={path}>
