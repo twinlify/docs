@@ -108,6 +108,10 @@ const Navigation = props => {
       name: 'API Reference',
       path: DOC_PATHS.api,
       toc: apiTOC
+    },
+    {
+      name: 'Changelog',
+      path: DOC_PATHS.changelog
     }
   ];
 
@@ -123,7 +127,7 @@ const Navigation = props => {
             <span>{name}</span>
           </NavLink>
           <$TOC show={pathname === path}>
-            <Markdown markdown={toc} />
+            {toc && <Markdown markdown={toc} />}
           </$TOC>
         </$Topic>
       ))}
