@@ -10,6 +10,8 @@
 
 - read on <https://docs.twinlify.com/>
 - demo on <https://platform.twinlify.com/>
+- changelog on [github](https://github.com/twinlify/docs/blob/master/src/pages/docs/changelog.md)
+- changelog on [website](https://docs.twinlify.com/documentation/changelog)
 
 ## 🧑‍🚀 dev
 
