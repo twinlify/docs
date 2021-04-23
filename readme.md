@@ -6,7 +6,8 @@
 
 # Documentation
 
-# [![nexus](https://img.shields.io/npm/v/@twinlify/nexus?color=%23111&label=%40twinlify%2Fnexus)](https://www.npmjs.com/package/@twinlify/nexus)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7ecc59e9-2e95-43cd-bc44-146f262de688/deploy-status)](https://app.netlify.com/sites/twinlify-docs/deploys)
+[![nexus](https://img.shields.io/npm/v/@twinlify/nexus?color=%23111&label=%40twinlify%2Fnexus)](https://www.npmjs.com/package/@twinlify/nexus)
 
 - read on <https://docs.twinlify.com/>
 - demo on <https://platform.twinlify.com/>
