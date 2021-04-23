@@ -19,12 +19,12 @@
     "styled-components": "^5.2.3"
   },
   "devDependencies": {
-    "@uralys/reactor": "^1.0.15",
+    "@uralys/reactor": "^1.0.16",
     "babel-eslint": "^10.0.3",
     "eslint": "^7.24.0",
     "eslint-config-prettier": "^8.2.0",
     "eslint-config-standard": "^16.0.2",
     "eslint-plugin-react": "^7.23.2",
-    "npm-check-updates": "^11.4.1"
+    "npm-check-updates": "^11.5.1"
   }
 }
