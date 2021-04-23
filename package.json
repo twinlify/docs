@@ -3,7 +3,7 @@
   "version": "0.0.6",
   "description": "Documentation website for Twinlify",
   "scripts": {
-    "prebuild": "rm -rf ./dist && reactor toc",
+    "prebuild": "reactor toc",
     "build": "reactor build",
     "start:dev": "reactor toc && reactor start",
     "ncu": "npm-check-updates",
