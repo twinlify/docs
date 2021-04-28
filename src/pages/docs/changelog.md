@@ -1,4 +1,13 @@
-## [v0.11.5](#v0115)
+## [v0.12.0](#v0120)
+
+_April 28, 2021_
+
+Core:
+
+- `connections` fully migrated to `devices`
+- changes on the UI to switch between Building/Devices
+
+![preview](https://user-images.githubusercontent.com/910636/116450988-413e6d80-a85c-11eb-9083-3ee47ba1d9d1.png)
 
 _April 23, 2021_
 
