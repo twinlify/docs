@@ -1,3 +1,7 @@
+## WIP
+
+- put back and improved highlighted devices
+
 ## [v0.13.0](#v0130)
 
 _May 05, 2021_
