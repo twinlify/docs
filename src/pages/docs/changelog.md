@@ -1,5 +1,7 @@
 ## [v0.13.0](#v0130)
 
+_May 05, 2021_
+
 - devices: removed `properties.level`. It's been replaced by `properties.partId`, to allow `z` calculation and filtering by building part at the same time.
 - introduced devices `tags`. Tags will allow filtering on the scene and UI.
 - introduced devices UI enabling `coloring` selection
