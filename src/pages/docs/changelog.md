@@ -1,6 +1,6 @@
-## WIP
+## [WIP](#wip)
 
-- put back and improved highlighted devices
+- put back and improved devices hovering and selection
 
 ## [v0.13.0](#v0130)
 
