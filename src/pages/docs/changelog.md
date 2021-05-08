@@ -1,6 +1,7 @@
 ## [WIP](#wip)
 
 - put back and improved devices hovering and selection
+- improved lights, added shadows
 
 ## [v0.13.0](#v0130)
 
