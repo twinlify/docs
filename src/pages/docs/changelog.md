@@ -1,7 +1,12 @@
 ## [WIP](#wip)
 
+## [v0.14.0](#v0140)
+
 - put back and improved devices hovering and selection
 - improved lights, added shadows
+- improved devices filtering
+- added new device boxes to display connected data
+- fixed ground behaviour for undergrounds
 
 ## [v0.13.0](#v0130)
 
