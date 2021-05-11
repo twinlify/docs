@@ -1,6 +1,8 @@
-## [WIP](#wip)
+<!-- ## [WIP](#wip) -->
 
 ## [v0.14.0](#v0140)
+
+_May 11, 2021_
 
 - put back and improved devices hovering and selection
 - improved lights, added shadows
