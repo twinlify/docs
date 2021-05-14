@@ -1,5 +1,12 @@
 <!-- ## [WIP](#wip) -->
 
+## [v0.15.0](#v0150)
+
+_May 14, 2021_
+
+- handling new config for buildings imported using `.glb`/`.gltf`.
+- devices are now positioned at `scene.origin` by default.
+
 ## [v0.14.0](#v0140)
 
 _May 11, 2021_
