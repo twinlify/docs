@@ -1,5 +1,11 @@
 <!-- ## [WIP](#wip) -->
 
+## [v0.15.1](#v0151)
+
+_May 14, 2021_
+
+- put back `pixelRatio` to 1 to improve performances
+
 ## [v0.15.0](#v0150)
 
 _May 14, 2021_
