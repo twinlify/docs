@@ -1,5 +1,11 @@
 <!-- ## [WIP](#wip) -->
 
+## [v0.15.2](#v0152)
+
+_May 15, 2021_
+
+- handling scenes without buildings
+
 ## [v0.15.1](#v0151)
 
 _May 14, 2021_
