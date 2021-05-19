@@ -1,16 +1,23 @@
 <!-- ## [WIP](#wip) -->
 
+## [v0.16.0](#v0160)
+
+_May 19, 2021_
+
+- introducing `warnings` as specific tags applied on custom rules, crossing device categories.
+- focus selection is now using `names`.
+
 ## [v0.15.2](#v0152)
 
 _May 15, 2021_
 
-- handling scenes without buildings
+- handling scenes without buildings.
 
 ## [v0.15.1](#v0151)
 
 _May 14, 2021_
 
-- put back `pixelRatio` to 1 to improve performances
+- put back `pixelRatio` to 1 to improve performances.
 
 ## [v0.15.0](#v0150)
 
@@ -23,11 +30,11 @@ _May 14, 2021_
 
 _May 11, 2021_
 
-- put back and improved devices hovering and selection
-- improved lights, added shadows
-- improved devices filtering
-- added new device boxes to display connected data
-- fixed ground behaviour for undergrounds
+- put back and improved devices hovering and selection.
+- improved lights, added shadows.
+- improved devices filtering.
+- added new device boxes to display connected data.
+- fixed ground behaviour for undergrounds.
 
 ## [v0.13.0](#v0130)
 
@@ -35,7 +42,7 @@ _May 05, 2021_
 
 - devices: removed `properties.level`. It's been replaced by `properties.partId`, to allow `z` calculation and filtering by building part at the same time.
 - introduced devices `tags`. Tags will allow filtering on the scene and UI.
-- introduced devices UI enabling `coloring` selection
+- introduced devices UI enabling `coloring` selection.
 
 <p align="center"><img width="300px" src="https://user-images.githubusercontent.com/910636/117120028-1a6bc400-ad93-11eb-99f1-b302779286b9.png"></p>
 
@@ -43,8 +50,8 @@ _May 05, 2021_
 
 _April 28, 2021_
 
-- `connections` fully migrated to `devices`
-- changes on the UI to switch between Building/Devices
+- `connections` fully migrated to `devices`.
+- changes on the UI to switch between Building/Devices.
 
 <p align="center"><img width="300px" src="https://user-images.githubusercontent.com/910636/116450988-413e6d80-a85c-11eb-9083-3ee47ba1d9d1.png"></p>
 
