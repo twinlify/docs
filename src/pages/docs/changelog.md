@@ -1,5 +1,13 @@
 <!-- ## [WIP](#wip) -->
 
+## [v0.16.1](#v0161)
+
+_May 24, 2021_
+
+- enhanced tag filtering
+- _(internal)_ removed all Nexus v1 old state behaviour
+- _(internal)_ moved actions outside barrels
+
 ## [v0.16.0](#v0160)
 
 _May 19, 2021_
