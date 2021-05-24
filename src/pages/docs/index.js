@@ -38,6 +38,15 @@ const $View = styled.div`
 const $DocView = styled.div`
   width: 100%;
 
+  h2 {
+    margin-bottom: 0;
+  }
+
+  p {
+    margin: 0;
+    padding: 0;
+  }
+
   @media ${device.tablet} {
     padding-left: 30px;
     padding-right: 30px;
