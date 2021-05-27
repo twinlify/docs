@@ -147,7 +147,11 @@ types: `sphere`, `polygon`, `cctv`, `gtlf` or custom depending on your site [con
 
 #### [properties](#properties)
 
-- `level`: integer: your `model.z` will be calculated from this.
+Optional properties:
+
+- `level`: (integer, default: 0) If you define a level, your `model.z` will be calculated considering your `wallsHeight` and `floorHeight`.
+- `partId`: (If you use `partId`, `level` will be ignored) If you prefer to attach the device to a specific building part, you can use this property: your `model.z` will be calculated accordingly.
+- `offset`: (default: 0) a `z` offset additioned to the calculated `z`.
 
 #### [reading](#reading)
 

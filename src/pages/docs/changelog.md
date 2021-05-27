@@ -1,5 +1,12 @@
 <!-- ## [WIP](#wip) -->
 
+## [v0.16.2](#v0162)
+
+_May 27, 2021_
+
+- updated device properties, see <https://docs.twinlify.com/documentation/api#additional-model-properties>
+- fixed click behaviour on ornaments
+
 ## [v0.16.1](#v0161)
 
 _May 24, 2021_
