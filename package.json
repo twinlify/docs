@@ -1,6 +1,6 @@
 {
   "name": "@twinlify/docs",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Documentation website for Twinlify",
   "scripts": {
     "prebuild": "reactor toc",
