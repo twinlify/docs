@@ -1,5 +1,12 @@
 <!-- ## [WIP](#wip) -->
 
+## [v0.16.3](#v0163)
+
+_May 27, 2021_
+
+- fixes on some device positioning
+- removed many spamming logs
+
 ## [v0.16.2](#v0162)
 
 _May 27, 2021_
