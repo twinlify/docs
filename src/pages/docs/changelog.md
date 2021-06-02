@@ -1,5 +1,12 @@
 <!-- ## [WIP](#wip) -->
 
+## [v0.16.4](#v0164)
+
+_June 02, 2021_
+
+- Updated to [three 129](https://github.com/mrdoob/three.js/releases/tag/r129)
+- _(internal)_ fixed default coordinates for gltf-multi
+
 ## [v0.16.3](#v0163)
 
 _May 27, 2021_
