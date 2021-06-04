@@ -1,5 +1,11 @@
 <!-- ## [WIP](#wip) -->
 
+## [v0.17.0](#v0170)
+
+_June 04, 2021_
+
+- introduced light theme (set as default for now)
+
 ## [v0.16.4](#v0164)
 
 _June 02, 2021_
