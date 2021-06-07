@@ -10,6 +10,7 @@ module.exports = {
     source: './src/pages/docs'
   },
   sitemap: {
+    publicPath: './public',
     hostname: 'https://docs.twinlify.com',
     links: [
       {url: '/', lastmod: new Date()},
