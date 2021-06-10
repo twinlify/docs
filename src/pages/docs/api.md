@@ -233,6 +233,17 @@ nexus.updateDeviceColor({
 
 To apply a calculated color depending on a value, you need to use a [`coloring`](#addcoloring).
 
+## [HUD](#hud)
+
+### [closeMenu](#closemenu)
+
+To close the left menu window
+
+```js
+nexus.closeMenu();
+```
+
+<!--
 ## [Building](#building)
 
 Functions to navigate and filter your building and levels.
@@ -243,4 +254,4 @@ Stay in touch;
 
 Functions to use the camera.
 
-Stay in touch;
+Stay in touch; -->

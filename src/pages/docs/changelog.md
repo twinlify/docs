@@ -1,10 +1,18 @@
 <!-- ## [WIP](#wip) -->
 
+## [v0.17.1](#v0171)
+
+_June 10, 2021_
+
+- SDK: added [`closeMenu()`](https://docs.twinlify.com/documentation/api#closemenu)
+- _(internal)_ started to rename `focus` to `projection` --> should move upward to SDK soon
+- _(internal)_ removed unused libs from previous HUD
+
 ## [v0.17.0](#v0170)
 
 _June 04, 2021_
 
-- introduced light theme (set as default for now)
+- Introduced light theme (set as default for now)
 
 ## [v0.16.4](#v0164)
 
@@ -17,30 +25,30 @@ _June 02, 2021_
 
 _May 27, 2021_
 
-- fixes on some device positioning
-- removed many spamming logs
+- Fixes on some device positioning
+- Removed many spamming logs
 
 ## [v0.16.2](#v0162)
 
 _May 27, 2021_
 
-- updated device properties, see <https://docs.twinlify.com/documentation/api#additional-model-properties>
-- fixed click behaviour on ornaments
+- SDK: Updated device properties, see <https://docs.twinlify.com/documentation/api#additional-model-properties>
+- Fixed click behaviour on ornaments
 
 ## [v0.16.1](#v0161)
 
 _May 24, 2021_
 
-- enhanced tag filtering
-- _(internal)_ removed all Nexus v1 old state behaviour
-- _(internal)_ moved actions outside barrels
+- Enhanced tag filtering
+- _(internal)_ Removed all Nexus v1 old state behaviour
+- _(internal)_ Moved actions outside barrels
 
 ## [v0.16.0](#v0160)
 
 _May 19, 2021_
 
-- introducing `warnings` as specific tags applied on custom rules, crossing device categories.
-- focus selection is now using `names`.
+- Introducing `warnings` as specific tags applied on custom rules, crossing device categories.
+- Focus selection is now using `names`.
 
 ## [v0.15.2](#v0152)
 
@@ -52,32 +60,32 @@ _May 15, 2021_
 
 _May 14, 2021_
 
-- put back `pixelRatio` to 1 to improve performances.
+- Put back `pixelRatio` to 1 to improve performances.
 
 ## [v0.15.0](#v0150)
 
 _May 14, 2021_
 
-- handling new config for buildings imported using `.glb`/`.gltf`.
-- devices are now positioned at `scene.origin` by default.
+- Handling new config for buildings imported using `.glb`/`.gltf`.
+- Devices are now positioned at `scene.origin` by default.
 
 ## [v0.14.0](#v0140)
 
 _May 11, 2021_
 
-- put back and improved devices hovering and selection.
-- improved lights, added shadows.
-- improved devices filtering.
-- added new device boxes to display connected data.
-- fixed ground behaviour for undergrounds.
+- Put back and improved devices hovering and selection.
+- Improved lights, added shadows.
+- Improved devices filtering.
+- Added new device boxes to display connected data.
+- Fixed ground behaviour for undergrounds.
 
 ## [v0.13.0](#v0130)
 
 _May 05, 2021_
 
-- devices: removed `properties.level`. It's been replaced by `properties.partId`, to allow `z` calculation and filtering by building part at the same time.
-- introduced devices `tags`. Tags will allow filtering on the scene and UI.
-- introduced devices UI enabling `coloring` selection.
+- Devices: removed `properties.level`. It's been replaced by `properties.partId`, to allow `z` calculation and filtering by building part at the same time.
+- Introduced devices `tags`. Tags will allow filtering on the scene and UI.
+- Introduced devices UI enabling `coloring` selection.
 
 <p align="center"><img width="300px" src="https://user-images.githubusercontent.com/910636/117120028-1a6bc400-ad93-11eb-99f1-b302779286b9.png"></p>
 
@@ -86,7 +94,7 @@ _May 05, 2021_
 _April 28, 2021_
 
 - `connections` fully migrated to `devices`.
-- changes on the UI to switch between Building/Devices.
+- Changes on the UI to switch between Building/Devices.
 
 <p align="center"><img width="300px" src="https://user-images.githubusercontent.com/910636/116450988-413e6d80-a85c-11eb-9083-3ee47ba1d9d1.png"></p>
 
@@ -95,10 +103,10 @@ _April 28, 2021_
 _April 23, 2021_
 
 - Updated to [three 128](https://github.com/mrdoob/three.js/releases/tag/r128)
-- started `connections` migration to `devices`
+- Started `connections` migration to `devices`
 
 ## [v0.11.4](#v0114)
 
 _April 18, 2021_
 
-- devices: `feature` property was renamed [`location`](/documentation/api#location)
+- Devices: `feature` property was renamed [`location`](/documentation/api#location)
