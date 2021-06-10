@@ -8,6 +8,8 @@ const Demo = () => {
       clientId: 'demo',
       containerId: 'nexusContainer',
       configId: 'rooms'
+    }).then(nexus => {
+      nexus.closeMenu();
     });
   }, []);
 
