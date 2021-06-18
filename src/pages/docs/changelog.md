@@ -1,5 +1,13 @@
 <!-- ## [WIP](#wip) -->
 
+## [v0.18.0](#v0180)
+
+_June 18, 2021_
+
+- introduced `moving` devices: If you update `coordinates` using [`updateDeviceData()`](https://docs.twinlify.com/documentation/api#updatedevicedata) or a live `connection`, you device will be animated from its current position to these new coordinates.
+
+- it's now possible to create a device without coordinates. It will be invisible on the scene, then appear when new coordinates will we received (using a `connection`) or given (using `updateDeviceData()`)
+
 ## [v0.17.1](#v0171)
 
 _June 10, 2021_
