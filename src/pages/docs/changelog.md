@@ -1,5 +1,14 @@
 <!-- ## [WIP](#wip) -->
 
+## [v0.19.0](#v0190)
+
+_June 21, 2021_
+
+- enabled QRCodes on HUD to open external links.
+- enabled actions to external tools, such as messaging on Slack channels.
+- enabled custom REST calls to trigger from a selected device
+- (internal) coloring steps can now be used with booleans `[true, false]`
+
 ## [v0.18.0](#v0180)
 
 _June 18, 2021_
