@@ -1,5 +1,11 @@
 <!-- ## [WIP](#wip) -->
 
+## [v0.19.1](#v0191)
+
+_June 25, 2021_
+
+- [`updateDeviceData()`](https://docs.twinlify.com/documentation/api#updatedevicedata): improved coordinates update when no `reading` is used
+
 ## [v0.19.0](#v0190)
 
 _June 21, 2021_
