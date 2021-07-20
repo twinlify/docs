@@ -1,5 +1,13 @@
 <!-- ## [WIP](#wip) -->
 
+## [v0.19.3](#v0193)
+
+_July 20, 2021_
+
+- Updated to [three 130](https://github.com/mrdoob/three.js/releases/tag/r130)
+- Fixed z behaviours for `gltf-multi`
+- (internal) preparing hud modes
+
 ## [v0.19.1](#v0191)
 
 _June 25, 2021_
