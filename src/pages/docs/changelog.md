@@ -1,5 +1,11 @@
 <!-- ## [WIP](#wip) -->
 
+## [v0.19.4](#v0194)
+
+_August 24, 2021_
+
+- Updated to [three 131](https://github.com/mrdoob/three.js/releases/tag/r131)
+
 ## [v0.19.3](#v0193)
 
 _July 20, 2021_
