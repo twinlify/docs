@@ -10,6 +10,7 @@ import {device, Markdown} from '@twinlify/walrus';
 // -----------------------------------------------------------------------------
 
 import apiMd from './api.md';
+import nimbusApiMd from './nimbus-api.md';
 import changelogMd from './changelog.md';
 import gettingStartedMd from './getting-started.md';
 import usingBundlerMd from './using-bundler.md';
@@ -20,6 +21,7 @@ import usingCdnMd from './using-cdn.md';
 const root = '/documentation';
 const gettingStarted = '/getting-started';
 const api = '/api';
+const nimbusApi = '/configuration-api';
 const changelog = '/changelog';
 const usingBundler = '/using-bundler';
 const usingCdn = '/using-cdn';
@@ -74,6 +76,11 @@ const Documentation = props => {
             component={() => <Markdown markdown={apiMd} />}
           />
           <Route
+            path={`${path}${nimbusApi}`}
+            exact
+            component={() => <Markdown markdown={nimbusApiMd} />}
+          />
+          <Route
             path={`${path}${usingCdn}`}
             exact
             component={() => <Markdown markdown={usingCdnMd} />}
@@ -104,6 +111,7 @@ export default Documentation;
 export const DOC_PATHS = {
   api: `${root}${api}`,
   changelog: `${root}${changelog}`,
+  nimbusApi: `${root}${nimbusApi}`,
   usingBundler: `${root}${usingBundler}`,
   usingCdn: `${root}${usingCdn}`,
   gettingStarted: `${root}${gettingStarted}`

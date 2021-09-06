@@ -14,6 +14,7 @@ import pkg from '../../../package.json';
 import {DOC_PATHS} from '.';
 import gettingStartedTOC from '../../../tocs/toc.getting-started.md';
 import apiTOC from '../../../tocs/toc.api.md';
+import nimbusApiTOC from '../../../tocs/toc.nimbus-api.md';
 import usingBundlerTOC from '../../../tocs/toc.using-bundler.md';
 import usingCdnTOC from '../../../tocs/toc.using-cdn.md';
 
@@ -105,9 +106,14 @@ const Navigation = props => {
       toc: usingBundlerTOC
     },
     {
-      name: 'API Reference',
+      name: 'Nexus API',
       path: DOC_PATHS.api,
       toc: apiTOC
+    },
+    {
+      name: 'Configuration API',
+      path: DOC_PATHS.nimbusApi,
+      toc: nimbusApiTOC
     },
     {
       name: 'Changelog',

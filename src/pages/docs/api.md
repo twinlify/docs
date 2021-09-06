@@ -1,4 +1,8 @@
-# API Reference
+# Frontend API Reference
+
+This documentation is about how to use the Nexus API.
+
+Nexus is the 3D widget you integrate in your frontend.
 
 ## [Twin](#twin)
 
