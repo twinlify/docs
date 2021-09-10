@@ -1,5 +1,12 @@
 <!-- ## [WIP](#wip) -->
 
+## [v0.19.5](#v0195)
+
+_September 10, 2021_
+
+- CDN bundle now targets `es6`
+- Updated to [three 132](https://github.com/mrdoob/three.js/releases/tag/r132)
+
 ## [v0.19.4](#v0194)
 
 _August 24, 2021_
