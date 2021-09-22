@@ -18,10 +18,10 @@ const Demo = () => {
       id="nexusContainer"
       style={{
         width: '100%',
-        'max-width': '600px',
+        maxWidth: '600px',
         height: '450px',
         border: `1px solid ${primary}`,
-        'border-radius': '10px',
+        borderRadius: '10px',
         overflow: 'hidden'
       }}
     />
