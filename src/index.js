@@ -50,6 +50,6 @@ const createSite = ({id}) => {
 
 // -----------------------------------------------------------------------------
 
-if (window && !window.createApp) {
+if (window && !window.createSite) {
   window.createSite = createSite;
 }

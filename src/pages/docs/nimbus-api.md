@@ -18,16 +18,71 @@ curl -X POST -H 'Content-type: application/json' --data '{"id":"ANY_UNIQUE_ID", 
 
 Once your scene is created, you can instanciate a [Nexus](/documentation/api) on your frontend
 
-## [Connections (WIP) ](#connections)
+## [Connections](#connections)
 
-You'll have tools to handle your connections on this backend side.
+### endpoint
+
+To attach an endpoint to your scene, use:
+
+```sh
+curl -X POST -H 'Content-type: application/json' --data '{
+  "configId": "YOUR_CONFIG_ID",
+  "connection": {
+    "uid": "ANY_UID",
+    "name": "ANY_NAME",
+    "type": "rest",
+    "url": "https://your/endpoint"
+  }
+}
+' https://vdlzwh6f48.execute-api.eu-west-3.amazonaws.com/production/add-item
+```
+
+### reading
+
+Once your connection is registered, use the same `uid` to attach a `reading`:
+
+```sh
+curl -X POST -H 'Content-type: application/json' --data '{
+  "configId": "YOUR_CONFIG_ID",
+  "connectionUID": "YOUR_CONNECTION_UID",
+  "reading": {
+    "temperature": {
+      "name": "Température"
+    },
+    "date": {
+      "name": "Date"
+    }
+  }
+}
+' https://vdlzwh6f48.execute-api.eu-west-3.amazonaws.com/production/add-item
+```
+
+To can read more info about `readings` [here](/documentation/api#reading)
+
+## [Customisation](#customisation)
+
+### coloring
+
+You may want to use a custom `coloring` for your `readings`.
+To do so you need to register your `coloring` first:
+
+```sh
+curl -X POST -H 'Content-type: application/json' --data '{
+  "configId": "YOUR_CONFIG_ID",
+  "connectionUID": "YOUR_CONNECTION_UID",
+  "coloring": {
+    "id": "temperatureColoring",
+    "steps": [18, 21, 24, 27],
+    "colors": ["#33f", "#33bb77", "#f3e942", "#f18842", "#d33a3a"]
+  }
+}
+' https://vdlzwh6f48.execute-api.eu-west-3.amazonaws.com/production/add-item
+```
+
+To can read more info about `coloring` [here](/documentation/api#addcoloring)
+
+## WIP
+
+We'll add more tools to handle your buildings and connections on this backend side, feel free to contact us [here](https://twinlify.com/contact) so we can hear your needs.
+
 Meanwhile you can connect your assets directly from your platform using the [frontend API](/documentation/api)
-
-## [Customisation (WIP) ](#customisation)
-
-You'll have tools to set up your `colorings`, `warnings` etc...
-Meanwhile you can handle your settings directly from your platform using the [frontend API](/documentation/api)
-
-## [Building](#building)
-
-Keep posted, we're working on providing you with a API to handle your building sections;
