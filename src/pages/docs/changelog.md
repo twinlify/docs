@@ -1,5 +1,11 @@
 <!-- ## [WIP](#wip) -->
 
+## [v0.19.6](#v0196)
+
+_September 29, 2021_
+
+- Added an new toggler for the selected floor, allowing to fine tune the walls and floor opacity
+
 ## [v0.19.5](#v0195)
 
 _September 10, 2021_
