@@ -1,5 +1,12 @@
 <!-- ## [WIP](#wip) -->
 
+## [v0.19.7](#v0197)
+
+_October 14, 2021_
+
+- Fixed a default behaviour while calculating walls heights which resulted to misplaced objects.
+- Updated to [three 133](https://github.com/mrdoob/three.js/releases/tag/r133)
+
 ## [v0.19.6](#v0196)
 
 _September 29, 2021_
