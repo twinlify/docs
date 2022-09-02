@@ -1,5 +1,11 @@
 <!-- ## [WIP](#wip) -->
 
+## [v0.19.8](#v0198)
+
+_September 02, 2022_
+
+- Fixed a default behaviour while positioning meshes.
+
 ## [v0.19.7](#v0197)
 
 _October 14, 2021_
