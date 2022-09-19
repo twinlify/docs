@@ -114,10 +114,10 @@ const Navigation = props => {
       name: 'Configuration API',
       path: DOC_PATHS.nimbusApi,
       toc: nimbusApiTOC
-    },
-    {
-      name: 'Changelog',
-      path: DOC_PATHS.changelog
+    // },
+    // {
+    //   name: 'Changelog',
+    //   path: DOC_PATHS.changelog
     }
   ];
 

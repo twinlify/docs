@@ -1,5 +1,7 @@
 <!-- ## [WIP](#wip) -->
 
+all further versions are not documented but can be found on [npmjs](https://www.npmjs.com/package/@twinlify/nexus?activeTab=versions)
+
 ## [v0.19.8](#v0198)
 
 _September 02, 2022_
